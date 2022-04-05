@@ -5,7 +5,9 @@
         "noEmitOnError": true,
         "noImplicitAny": true,
         "removeComments": true,
-        "strictNullChecks": false
+        "strictNullChecks": true,
+        "experimentalDecorators": true,
+        "sourceMap": true
     },
-    "include": ["app/**/*"]
+    "include": ["app/src/**/*"]
 }
